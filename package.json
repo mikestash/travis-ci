@@ -1,0 +1,27 @@
+{
+  "name": "travis",
+  "version": "1.0.0",
+  "description": "testing travis ci",
+  "main": "app.js",
+  "scripts": {
+    "test": "grunt --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dNItro/travis-ci.git"
+  },
+  "keywords": [
+    "node",
+    "travis"
+  ],
+  "author": "dNitro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dNItro/travis-ci/issues"
+  },
+  "homepage": "https://github.com/dNItro/travis-ci#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0"
+  }
+}
